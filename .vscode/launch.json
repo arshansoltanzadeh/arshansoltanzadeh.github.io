@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
       {
-        "type": "",
+        "type": "chrome",
         "request": "launch",
         "name": "Test personal website",
         "url": "https://bleezdev-miniature-journey-4p4qx66rj5gcqx56-34469.preview.app.github.dev/",
