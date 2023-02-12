@@ -15,13 +15,15 @@
             (o_o) this browser does not support html5 audio...
         </audio>
         
-        <header>
-            <h2 id="titleText">Hi, my name is Arshan, aka BleezDev. I am a teen fullstack developer who enjoys learning new things every day. </h2>
+        <header id="siteTitle">
+            <h2 id="titleText">Hi, I'm Arshan, a teen fullstack developer who enjoys learning new things every day.</h2>
             <img src="bleezlogo.png" id="myLogo">
         </header>
 
-        <div id='aboutMe'>
-            <h3>a little about me:</h3>
+        <section id='aboutMe'>
+            <header>
+                <h3>a little about me:</h3>
+            </header>
 
             <ol>
                 <li><b>I am a passionate athlete.</b> Currently I play club water polo for Rose Bowl Water Polo Club. Some other sports I play include surfing, alpine skiing, mountain biking, and soccer. To me, sports have been an active way to cool off and allow my mind to breathe.</li><br>
@@ -34,33 +36,73 @@
 
                 <li><b>I am tri-lingual.</b> In addition to speaking English, I speak Farsi (Iranian/Persian) and Spanish.</li><br>
             </ol>
-        </div>
+        </section>
 
-        <div id='socialPages'>
-            <a href="https://github.com/BleezDEV">Github <img src="github.png"></a>
-            <a href="https://replit.com/@Bleezdev">Replit <img src="repl.png"></a>
-            <a href="mailto:asoltanzadeh@outlook.com">Email <img src="email.png"></a>
-            <a href="https://leetcode.com/BleezDEV/">Leetcode <img src="leetcode.png"></a>
-            <a href="http://discordapp.com/users/769682324941045791">Discord <img src="discord.png"></a>
-            <a href="https://codeforces.com/profile/ArshSolt">Codeforces <img src="codeforces.png"></a>
-            <a href="https://stackoverflow.com/users/20079327/bleezdev">Stack Overflow <img src="stackoverflow.png"></a>
-        </div>
+        <section id='socialPages'>
+            <header>
+                <h3>socials:</h3>
+            </header>
+            
+            <div class="logoSet">
+                <a href="https://github.com/BleezDEV" id="github" target="_blank">Github</a> 
+                <img src="github.png" class="logo">
+            </div>
+            <div class="logoSet">
+                <a href="https://replit.com/@Bleezdev" target="_blank">Replit</a>
+                <img src="repl.png" class="logo">
+            </div>
+            <div class="logoSet">
+                <a href="mailto:asoltanzadeh@outlook.com" target="_blank">Email</a>
+                <img src="email.png" class="logo">
+            </div>
+            <div class="logoSet">
+                <a href="https://leetcode.com/BleezDEV/" target="_blank">Leetcode</a>
+                <img src="leetcode.png" class="logo">
+            </div>
+            <div class="logoSet">
+                <a href="http://discordapp.com/users/769682324941045791" target="_blank">Discord</a>
+                <img src="discord.png" class="logo">
+            </div>
+            <div class="logoSet">
+                <a href="https://codeforces.com/profile/ArshSolt" target="_blank">Codeforces</a>
+                <img src="codeforces.png" class="logo">
+            </div>
+            <div class="logoSet">
+                <a href="https://stackoverflow.com/users/20079327/bleezdev" target="_blank">Stack Overflow</a>
+                <img src="stackoverflow.png" class="logo">
+            </div>
+        </section>
 
-        <div id='projects'>
+        <section id='projects'>
             <!-- ENTER PROGRAMMING PROJECTS I HAVE DONE VIA REPL, ETC. HERE -->
-        </div>
+        </section>
 
-        <div id='contact'>
+        <section id='contact'>
             <!-- ENTER EMAIL SEND MESSAGES UI HERE -->
-        </div>
+            <div class="container">
+                <h1>FormSubmit Demo</h1>
+                <form target="_blank" action="https://formsubmit.co/asoltanzadeh@outlook.com" method="POST">
+                    <div class="form-group">
+                      <div class="form-row">
+                        <div class="col">
+                          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                        </div>
+                        <div class="col">
+                          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-dark btn-block">send message</button>
+                 </form>
+            </div>
+        </section>
 
-        <div id='resume'>
+        <section id='resume'>
             <!-- ENTER SOFTWARE DEVELOPMENT CERTIFICATIONS AND RESUME HERE -->
-        </div>
-
-        <div id='hireMe'>
-            <!-- ENTER A FORM FOR PEOPLE TO HIRE ME TO MAKE WEBSITES HERE -->
-        </div>
+        </section>
 
     </body>
 
