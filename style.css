@@ -1,12 +1,19 @@
 body {
-    background-color: DarkSeaGreen;
+    background-color: cyan;
 }
 
-header {
+#siteTitle {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h3 {
+   font-family: "Lucida Console", "Courier New", monospace;
 }
 
 #myLogo {
@@ -19,4 +26,49 @@ header {
     font-size: 40px;
     padding-right: 20px;
     padding-left: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.logo {
+    width: 30px;
+    padding-left: 10px;
+    padding-right: 60px;
+}
+
+.logoSet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+
+#github {
+    margin-left: 30px;
+}
+   
+#socialPages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#socialPages h3 {
+    margin-left: 50px;
+}
+
+#aboutMe {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 55px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
