@@ -1,5 +1,5 @@
 body {
-    background-color: cyan;
+    background-color: lightblue;
 }
 
 #siteTitle {
@@ -12,14 +12,14 @@ body {
     margin-right: 20px;
 }
 
-h3 {
+h3, p, a, h5 {
    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 #myLogo {
     width: 130px;
     height: 130px;
-    padding-right: 30px;
+    margin-right: 30px;
 }
 
 #titleText {
@@ -49,26 +49,140 @@ h3 {
    
 #socialPages {
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color: white;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-}
-
-#socialPages h3 {
-    margin-left: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #aboutMe {
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 55px;
+    padding-right: 30px;
     background-color: white;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#projects {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#resume {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+    
+#contact {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+footer {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#contact #cols {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formName {
+    width: 45%;
+    border: none;
+    margin-right: 40px;
+    border-bottom: 2px solid red;
+}
+
+#formEmail {
+    width: 48%;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+#formMsg {
+    margin-top: 18px;
+    width: 97.6%;
+    margin-bottom: 10px;
+    border: 2px solid red;
+    border-radius: 4px;
+    resize: none;
+}
+
+#submit {
+    width: 10%;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.5s;
+}
+
+#submit:hover {
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    border-radius: 4px;
+}
+
+.containerCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a #1{
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: red;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+  box-shadow: inset 200px 0 0 0 #54b3d6;
+  color: white;
 }
